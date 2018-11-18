@@ -8,6 +8,6 @@ for (let i = 2; i < (process.argv).length; i++) {
 arr.sort(compareNumbers);
 for(let i=0; i<arr.length;i++){
     setTimeout(() => {
-        console.log(arr[i])
+        
     }, parseInt(arr[i])*1000);
 }
